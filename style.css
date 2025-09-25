@@ -63,3 +63,136 @@ body {
   color: #ccc;
   margin-top: 0.5rem;
 }
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #000000, #131313);
+  opacity: calc(0.8);
+  padding: 15px 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #416383;
+}
+
+/* text homepage */
+/* Global */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #0d0d0d;
+  background-image: linear-gradient(to top, #000000, #110418);
+  color: white;
+  height: 1000px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: radial-gradient(circle at top, #7a2e2e, #0d0d0d);
+  background-image: url("https://www.freeiconspng.com/images/grid-png"); /* optional subtle grid bg */
+}
+.hero h1 {
+  font-size: 2.8rem;
+}
+.highlight {
+  color: #416383;
+}
+.hero p {
+  color: #ccc;
+  margin: 1rem 0 2rem;
+}
+.btn {
+  background: #416383;
+  color: #0d0d0d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #416383;
+}
+.icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(circle at top, #0d0d0d, #131313 );
+  padding: 3rem 2rem;
+}
+.stat h2 {
+  color: #416383;
+  font-size: 2rem;
+  margin: 0;
+}
+.stat p {
+  color: #ccc;
+  margin-top: 0.5rem;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #000000, #131313);
+  opacity: calc(0.8);
+  padding: 15px 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #416383;
+}
+
+/* text homepage */
