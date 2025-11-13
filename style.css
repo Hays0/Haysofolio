@@ -2,18 +2,18 @@
 .hero {
   text-align: center;
   padding: 6rem 2rem;
-  background: radial-gradient(circle at top, #292929, #0d0d0d);
+  background: radial-gradient(circle at top, #323031, #7F7979);
   background-image: url("https://www.freeiconspng.com/images/grid-png"); /* optional subtle grid bg */
 }
 .hero h1 {
   font-size: 2.8rem;
 }
 .highlight {
-  color: #416383;
+  color: #C1BDB3;
 }
 
 .highlight2 {
-  color: #0004ff;
+  color: #5F5B6B;
 }
 
 .hero p {
@@ -21,15 +21,15 @@
   margin: 1rem 0 2rem;
 }
 .btn {
-  background: #416383;
-  color: #c9c7c7;
+  background: #3D3B3C;
+  color: #3D3B3C;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
 }
 .btn:hover {
-  background: #416383;
+  background: #3D3B3C;
 }
 .icons {
   margin-top: 2rem;
@@ -57,10 +57,10 @@
 /* Chat PPP'ed */
 @keyframes pulse-glow {
   0% {
-    box-shadow: 0 0 10px rgba(0, 170, 255, 0.3), 0 0 20px rgba(0, 170, 255, 0.3);
+    box-shadow: 0 0 10px #2a2f314d, 0 0 20px #C1BDB3;
   }
   100% {
-    box-shadow: 0 0 25px rgba(0, 170, 255, 0.3), 0 0 50px rgba(0, 170, 255, 0.3);
+    box-shadow: 0 0 25px #7F7979, 0 0 50px #252425;
   }
 }
 
@@ -68,7 +68,7 @@
 .stats {
   display: flex;
   justify-content: space-around;
-  background: #0b1218;
+  background: #3D3B3C;
   padding: 3rem 2rem;
 }
 .stat h2 {
@@ -86,7 +86,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #0e191da1, #0e191d);
+  background-image: linear-gradient(to right, #323031, #3D3B3C);
   opacity: calc(0.8);
   padding: 15px 30px;
 }
@@ -110,7 +110,7 @@
 }
 
 .nav-links li a:hover {
-  color: #416383;
+  color: #c1bdb3;
 }
 
 /* Glow effect for navbar links */
@@ -121,9 +121,9 @@
 }
 
 .nav-links li a:hover {
-  color: #00aaff; /* text turns blue */
-  box-shadow: 0 0 10px #00aaff, 0 0 20px #00aaff; /* glowing aura */
-  background-color: rgba(0, 170, 255, 0.1); /* faint blue highlight */
+  color: #C1BDB3; /* text turns blue */
+  box-shadow: 0 0 10px #C1BDB3, 0 0 20px #3D3B3C; /* glowing aura */
+  background-color: #323031; /* faint blue highlight */
 }
 
 /*Main Page Description Text*/
@@ -158,12 +158,47 @@
   margin: 2rem auto;
 }
 
+/*List*/
+.list {
+  text-align: left;
+  padding-left: 2cm;
+}
+
+
 /* Global */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0d0d0d;
+  background: #191516;
   background-image: linear-gradient(to top, #0c050fa1, #0a070c);
   color: white;
   height: 1000px;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+
+/* coolpage */
+.coolpage-project-heading{
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #191516;
+  text-align: center;
+  padding: 0.5cm;
+  color: #C1BDB3;
+}
+
+/* coolpage-content */
+.txt-clpg-alt{
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
