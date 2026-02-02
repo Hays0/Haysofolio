@@ -40,6 +40,10 @@
       <li>Revamped Past Work Page.</li>
     </ul>
 
+     <h3><span class="highlight2">Changelog:</span> 02/02/2026 V2</h3>
+    <ul class="list">
+      <li>Added more content to Past Work (I did this during class)</li>
+    </ul>
 
 
     <p class="highlight2">FURTHER CHANGES WILL BE MADE SOON.</p>
