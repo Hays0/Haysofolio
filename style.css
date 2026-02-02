@@ -190,7 +190,7 @@ body {
 
 .parallax-bg2 {
   position: fixed;
-  top: -50vh; /* 👈 important */
+  top: -30vh; /* 👈 important */
   left: 0;
 
   width: 100%;
