@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - Hays0</title>
@@ -8,39 +12,102 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+
+  <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+ THE WEBSITE IS NEARLY UPDATED, SOME FEATURES MAY NOT WORK CORRECTLY AND CONTENT IS MISSING.
+  </div>
+<!-- THIS IS TEMPORARY, REMOVE LATER ONCE WEBSITE IS DONE-->
+
+  <div class="parallax-bg2"></div>
+
   <!-- Same Navbar -->
   <nav class="navbar">
     <div class="logo">Hays0</div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="coolpage.html">C00l_p2ge</a></li>
+      <li><a href="Past Work.html">Past Work</a></li>
     </ul>
   </nav>
 
-<section class="text-homepage">
-    <h1>Welcome to the <span class = "highlight">C00l_p2ge!</span></h1>
-    <p>This is a special page dedicated to all things cool. If you don't like it leave. You don't deserve to be here.</p>
-    <p>Here is where all the cool website will be listed as well, along-side new projects, past projects and roblox projects.</p>
-  </section>
+<section class="PWgridlayout">
+  <div class="PWtext">
+    <h1>Welcome to the <span class = "highlight">Past Work</span> page!</h1>
+    <p>On this page, you are able to view all my pastwork that I've completed in my lifetime. 80% of the stuff is there.
+      Otherwise, I deleted the others. Anyways, have a wee peek around. Maybe you will find something interesting.</p>
+
+    <p>Some posts will include the price it was comissioned for. If there is no price tag beside a past work image, then I have forgot how
+      much it sold for.</p>  
+  </div>    
+
+  <div class="PWimage">
+    <div class="PWimageinner">
+      <img src="Images/tHAYSOI.png" alt="Banner">
+    </div>
+  </div>
+
+    </section>
 
 <div>
   &nbsp;
 </div>
 
+
+<!-- BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS BUILDS  -->
+
+
+
 <div>
   <h1 class="coolpage-project-heading">
-    GBLR Website
+    Builds
   </h1>
-  <p class="txt-clpg-alt">
-    This is a website for <span class="highlight">"fake"</span> gambling. Coded with <span class="highlight2">(Hopefully anyway.)</span>
-    Its meant to serve as a entertainment for Joe so he can gamble away fake money rather than work on his Project Management Coursework. Which, keep in mind, is due in 2 weeks time. (24/11/2025) 
-  </p>
 </div>
 
-<section class="text-coolpage-project">
-<h1>Hello.</h1>
+
+<h1 class="txt-clpg-alt">
+    Industrial Map.
+</h1>
+<p class="txt-clpg-alt">
+    This is a game I created for personal use. It's an industrial map, with a half run-down building. It contains SOME free models to make the map feel alive.
+  </p>
+
+<section>
+  <div class="PWimage2">
+  <div class="PWimage2inner">
+  <img src="Images/Example1.png">
+  </div>
+</div>
+
+<div class="PWimage2">
+  <div class="PWimage2inner">
+  <img src="Images/Example2.png">
+  </div>
+</div>
 </section>
+
+
+<!-- GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX GFX  -->
+
+
+<div>
+  <h1 class="coolpage-project-heading">
+    GFX
+  </h1>
+</div>
+
+<p class="txt-clpg-alt">
+    Soon.
+  </p>
+
+<script>
+  const bg = document.querySelector(".parallax-bg2");
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    bg.style.transform = `translateY(${scrollY * 0.3}px)`;
+  });
+</script>
 
 </body>
 </html>
