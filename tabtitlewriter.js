@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const messages = [
     "Hays0 ",
-    "Website updated whenever ",
-    "Fuck Joe "
+    "Hi",
+    "Portfolio, yeah..."
   ];
 
   let messageIndex = 0;
