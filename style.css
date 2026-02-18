@@ -146,7 +146,7 @@
 
 /* Hamburger button and mobile menu */
 .burger {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 32px;
