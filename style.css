@@ -32,7 +32,7 @@
 
 .btn {
   background: #3D3B3C;
-  color: #3D3B3C;
+  color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
@@ -79,7 +79,7 @@
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
-  padding: 1rem auto;
+  padding: 1rem;
   display: flex;
   justify-content: space-around;
 }
@@ -109,7 +109,7 @@
   justify-content: space-between;
   align-items: center;
   background:rgba(0, 0, 0, 0.438);
-  opacity: calc(0.8);
+  opacity: 0.8;
   padding: 15px 30px;
 }
 
