@@ -144,6 +144,72 @@
   background-color: #0c0207;
 }
 
+/* Hamburger button and mobile menu */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.burger div {
+  width: 32px;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 3px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.burger:hover { transform: scale(1.06); }
+.burger:focus { outline: 2px solid rgba(255,255,255,0.2); }
+.burger.active div:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+.burger.active div:nth-child(2) { opacity: 0; }
+.burger.active div:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+
+/* Mobile menu initial state */
+.nav-links {
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .burger { display: flex; }
+  .logo { order: 2; }
+  .burger { order: 1; }
+  .nav-links {
+    position: fixed;
+    top: 64px;
+    right: 16px;
+    background: rgba(0,0,0,0.92);
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    transform-origin: top right;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.97);
+    transition: opacity 0.32s ease, transform 0.32s ease;
+    z-index: 1000;
+  }
+  .nav-links.open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+  }
+  .nav-links li {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
+  }
+  .nav-links.open li { opacity: 1; transform: translateY(0); }
+  .nav-links.open li:nth-child(1) { transition-delay: 0.05s; }
+  .nav-links.open li:nth-child(2) { transition-delay: 0.12s; }
+  .nav-links.open li:nth-child(3) { transition-delay: 0.19s; }
+  .nav-links.open li:nth-child(4) { transition-delay: 0.26s; }
+}
+
 
 /* Website Update Section */
 .website-update {
@@ -320,6 +386,34 @@ body {
 
 
 .PWimage2inner:hover img{
+  transform: scale(1.08) rotate(0.4deg);
+  filter: brightness(0.9);
+}
+
+.PWimage2PFP {
+  display: block;
+  padding: 0.2cm;
+  width: 30rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+  margin: 1rem auto;
+}
+
+.PWimage2innerPFP {
+  overflow: hidden;          /* prevents image spilling */
+  border-radius: 12px;
+}
+
+.PWimage2innerPFP img {
+   width: 100%;
+  height: auto;
+  transition: transform 0.6s ease, filter 0.6s ease;
+}
+
+
+.PWimage2innerPFP:hover img{
   transform: scale(1.08) rotate(0.4deg);
   filter: brightness(0.9);
 }
