@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+  <title>Hays0</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JS -->
+  <script src="tabtitlewriter.js" defer></script>
+</head>
+
+<body>
+
+
+
+  <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+ THE WEBSITE IS NEARLY UPDATED, SOME FEATURES MAY NOT WORK CORRECTLY AND CONTENT IS MISSING.
+  </div>
+<!-- THIS IS TEMPORARY, REMOVE LATER ONCE WEBSITE IS DONE-->
+
+
+
+
+
+
+
+  <div class="parallax-bg"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">Hays0</div>
+    <ul class="nav-links">
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="past-work.html">Past Work</a></li>
+      <li><a href="websitelogs.html">Web Logs</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="headingtexts">
+  <div class="hero-text">
+  <h1>Hi, I’m <span class="highlight">Hayso</span></h1>
+  <p>Hey there! You are either here because you want to see my past work, or cause you saw it on my discord profile. Anyways enjoy your stay here!</p>
+  </div>
+  </section>
+
+  <!-- Button to My Work-->
+  <section class="MPButton">
+  <div class="MPButton1">
+    <h1>Want to look at my previous work?</h1>
+    <p>Click the button below, it'll redirect you to the page you are looking for.</p>
+    <p>Theres no button, I'm still finishing this part.</p>
+  </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="stat">
+      <h2>20+</h2>
+      <p>Contributed Customers.</p>
+    </div>
+    <div class="stat">
+      <h2>R$100,000+</h2>
+      <p>Robux Made from Projects.</p>
+    </div>
+    <div class="stat">
+      <h2>100%</h2>
+      <p>Passion</p>
+    </div>
+  </section>
+
+  <!-- Latest Website Update -->
+  <section class="website-update">
+    <p class="highlight2">FURTHER CHANGES WILL BE MADE SOON.</p>
+
+    <p>Update Logs will be added back soon.</p>
+
+    <p>Plus more to come...</p>
+  </section>
+
+  
+
+<script>
+  const bg = document.querySelector(".parallax-bg");
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    bg.style.transform = `translateY(${scrollY * 0.3}px)`;
+  });
+</script>
+
+</body>
+</html>

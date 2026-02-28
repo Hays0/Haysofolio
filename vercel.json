@@ -1,0 +1,2 @@
+{   "rewrites": [     { "source": "/", "destination": "homepage.html" },     { "source": "/:path*", "destination": "/:path*" }   ] }
+ 
